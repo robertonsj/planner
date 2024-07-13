@@ -1,5 +1,5 @@
 # Planner
-This web app aims to help users organize trips for work or leisure. 
+This web application aims to help users organize trips for work or leisure. 
 
 ## Requirements
 The user can create a trip with name, start and end date. 
@@ -13,3 +13,14 @@ The user can plane their trip adding activities to do every single day.
 5. Still on the event page, the creator and guests can add activities that will take place during the trip, with title, and start and end date.
 6. New participants can be invited in the event page by their e-mails, and must go through the same confirmation flow as any other guest. 
 
+## The Programming Project
+- Create the project using Spring Initializr: Spring Web, Flyway, Dev Tools, Lombok, JPA, H2 Database;
+- Set database inside the application;
+### Migration for TRIPS table
+- Migration files represent changes in the database structure: creating table, modifying table (removing or adding fields), installing driver, massive data entry;
+- Migration files: SQL scripts, running comands inside database.
+
+### Create Entities that Represent a TRIP
+- Create Trip entity repository;
+- Create trip registration endpoint; POST/trips
+- Create trip query endtpoint; GET/trips/{tripId}
