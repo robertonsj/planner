@@ -24,3 +24,39 @@ The user can plane their trip adding activities to do every single day.
 - Create Trip entity repository;
 - Create trip registration endpoint; POST/trips
 - Create trip query endtpoint; GET/trips/{tripId}
+
+### TRIP Entity
+``` Javascript
+    "destination": {
+      "type": "string",
+      "minLength": 4,
+      "description": "O destino da viagem."
+    },
+    "starts_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "A data e hora de início da viagem no formato RFC 3339."
+    },
+    "ends_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "A data e hora de término da viagem no formato RFC 3339."
+    },
+    "emails_to_invite": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "email"
+      },
+      "description": "Uma lista de emails a serem convidados para a viagem."
+    },
+    "owner_name": {
+      "type": "string",
+      "description": "O nome do proprietário da viagem."
+    },
+    "owner_email": {
+      "type": "string",
+      "format": "email",
+      "description": "O email do proprietário da viagem."
+    }
+```
