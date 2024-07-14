@@ -1,4 +1,4 @@
-# Planner
+# Trip Planner
 This web application aims to help users organize trips for work or leisure. 
 
 ## Requirements
