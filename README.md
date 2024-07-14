@@ -60,3 +60,5 @@ The user can plane their trip adding activities to do every single day.
       "description": "O email do proprietário da viagem."
     }
 ```
+### Prototype
+https://www.figma.com/proto/6zVZedlLGkvw48nj64sdvd/Planejador-de-viagem?node-id=7124-1020&t=aUTO0Frlli27xefO-1&scaling=contain&content-scaling=fixed&page-id=3%3A376
